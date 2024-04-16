@@ -9,19 +9,46 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@metamask/sdk": "^0.14.2",
+    "@nextui-org/react": "^2.2.10",
+    "@rainbow-me/rainbowkit": "^2.0.1",
+    "@tanstack/react-query": "^5.29.2",
+    "@trpc/client": "11.0.0-rc.334",
+    "@trpc/next": "11.0.0-rc.334",
+    "@trpc/react-query": "11.0.0-rc.334",
+    "@trpc/server": "11.0.0-rc.334",
+    "@uniswap/v2-core": "^1.0.1",
+    "@vercel/kv": "^1.0.1",
+    "bignumber.js": "^9.1.2",
+    "clsx": "^2.1.0",
+    "dataloader": "^2.2.2",
+    "ethcall": "4.8.13",
+    "ethers": "5.7.2",
+    "framer-motion": "^11.0.25",
+    "lodash": "^4.17.21",
+    "mobx": "^6.12.0",
+    "mobx-react-lite": "^4.0.5",
+    "next": "14.1.1",
+    "p-queue": "5.0.0",
+    "p-retry": "^5.1.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.1"
+    "react-icons": "^5.0.1",
+    "superjson": "^2.2.1",
+    "viem": "^2.8.18",
+    "wagmi": "^2.5.12",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.1"
+    "typescript": "^5"
   }
 }
